@@ -31,5 +31,4 @@ target/classes/application.properties
 target/classes/META-INF/additional-spring-configuration-metadata.json
 target/classes/META-INF/build-info.properties
 *.MF
-target/classes/META-INF/maven/com.assglobal.esms/esms-api-gateway-basic-auth/pom.properties
-target/classes/META-INF/maven/com.assglobal.esms/esms-api-gateway-basic-auth/pom.xml
+target/*
