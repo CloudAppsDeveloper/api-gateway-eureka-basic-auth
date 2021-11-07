@@ -1,9 +1,9 @@
-package com.assglobal.esms.api.gateway.repo;
+package com.cloudapps.developer.repo;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.assglobal.esms.api.gateway.model.ApiUsers;
+import com.cloudapps.developer.model.ApiUsers;
 @Repository
 public interface ApiUsersRepository extends JpaRepository<ApiUsers, Long>{
 

@@ -1,4 +1,4 @@
-package com.assglobal.esms.api.gateway.filters;
+package com.cloudapps.developer.filters;
 
 import java.nio.charset.StandardCharsets;
 import java.util.Base64;
@@ -15,8 +15,8 @@ import org.springframework.util.ObjectUtils;
 import org.springframework.util.StringUtils;
 import org.springframework.web.server.ServerWebExchange;
 
-import com.assglobal.esms.api.gateway.model.ApiUsers;
-import com.assglobal.esms.api.gateway.services.ApiUsersServiceImpl;
+import com.cloudapps.developer.model.ApiUsers;
+import com.cloudapps.developer.services.ApiUsersServiceImpl;
 
 import lombok.extern.slf4j.Slf4j;
 import reactor.core.publisher.Mono;

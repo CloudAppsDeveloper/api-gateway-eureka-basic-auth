@@ -1,4 +1,4 @@
-package com.assglobal.esms.api.gateway.model;
+package com.cloudapps.developer.model;
 
 import java.io.Serializable;
 import java.util.Date;

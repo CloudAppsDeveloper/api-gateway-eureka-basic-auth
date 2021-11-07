@@ -1,4 +1,4 @@
-package com.assglobal.esms.api.gateway.config;
+package com.cloudapps.developer.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.gateway.route.RouteLocator;
@@ -6,9 +6,9 @@ import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.assglobal.esms.api.gateway.filters.GlobalFilter;
-import com.assglobal.esms.api.gateway.filters.PostFilter;
-import com.assglobal.esms.api.gateway.filters.PreFilter;
+import com.cloudapps.developer.filters.GlobalFilter;
+import com.cloudapps.developer.filters.PostFilter;
+import com.cloudapps.developer.filters.PreFilter;
 
 @Configuration
 public class GatewayConfig {
